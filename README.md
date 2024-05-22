@@ -1,4 +1,4 @@
-# Weather Location Manager
+# Weather Location App
 
 This is a web application built with React that allows users to manage their saved locations and view weather information for each location. It includes features such as user signup & login, adding new locations, editing and removing saved locations, and displaying current weather conditions for each location.
 
@@ -27,8 +27,8 @@ To set up the project locally, follow these steps:
 1. **Clone the repository:**
 
     ```sh
-    git clone https://github.com/yourusername/weather-location-manager.git
-    cd weather-location-manager
+   [ git clone https://github.com/yourusername/weather-location-manager.git](https://github.com/developercris7/weather-app.git)
+    cd weather-app
     ```
 
 2. **Install dependencies:**
