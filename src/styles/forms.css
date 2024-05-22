@@ -1,0 +1,123 @@
+.form-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--dark-bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+form {
+  max-width: 450px;
+  width: 100%;
+  height: 500px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  position: relative;
+}
+.form-title{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--btn-color);
+}
+.form-info-text{
+  font-size: 18px;
+}
+.line-break{
+  height: 2px;
+  background-color: var(--btn-color);
+}
+
+.input-fields {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 5px 0px;
+}
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-height: 75px;
+}
+.label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.star-text{
+  color:crimson;
+}
+.input {
+  outline: none;
+  border: none;
+  padding: 10px 5px;
+  font-size: 16px;
+  background: transparent;
+
+}
+.input:focus{
+  border: 1px solid var(--btn-color);
+}
+.err-text {
+  font-size: 15px;
+  color: red;
+}
+.submit-btn {
+  background-color: var(--btn-color);
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.redirect-text {
+  font-size: 16px;
+}
+
+/* Add location */
+
+.location-form-container {
+  width: 100%;
+  height: 100vh;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(10, 10, 10, 0.75);
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.form-buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.add-btn {
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  font-size: 16px;
+  background-color: var(--btn-color);
+
+}
+.form-close-btn{
+  font-size: 22px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: black;
+  cursor: pointer;
+}
+
