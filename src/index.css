@@ -83,3 +83,9 @@ font-weight: 500;
     grid-template-columns: 1fr;
   }
 }
+
+@media(768px <= width <= 991px){
+  .city-wrapper {
+    grid-template-columns: repeat(2,1fr);
+  }
+}
